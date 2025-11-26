@@ -1,0 +1,110 @@
+/* made with chatGPT*/
+/* === Page Aesthetic Matching User Style === */
+body {
+  background: cornsilk;
+  font-family: Arial, Helvetica, sans-serif;
+  margin: 0;
+  padding: 40px 20px;
+}
+
+/* === Resume Container === */
+.resume-container {
+  max-width: 850px;
+  margin: 0 auto;
+  background: lightslategray;
+  padding: 40px 50px;
+  border-radius: 30px;
+  color: white;
+  box-shadow: 0 0 10px rgba(0,0,0,0.25);
+}
+
+/* === Header === */
+.header {
+  text-align: center;
+  margin-bottom: 25px;
+}
+
+.name {
+  font-size: 32px;
+  font-weight: bold;
+  color: darkslategrey;
+  background: cornsilk;
+  padding: 10px 20px;
+  border-radius: 20px;
+  display: inline-block;
+}
+
+.contact-info {
+  margin-top: 10px;
+  font-size: 16px;
+  color: white;
+}
+
+.contact-info a {
+  color: cornsilk;
+  text-decoration: none;
+}
+
+.contact-info a:hover {
+  text-decoration: underline;
+}
+
+/* === Section Headings === */
+.section-title {
+  font-size: 22px;
+  font-weight: bold;
+  color: cornsilk;
+  margin-top: 30px;
+  margin-bottom: 10px;
+  border-bottom: 2px solid cornsilk;
+  padding-bottom: 5px;
+  text-transform: uppercase;
+  letter-spacing: 0.07em;
+}
+
+/* === Text Styling === */
+p {
+  font-size: 16px;
+  line-height: 1.45;
+  margin-bottom: 8px;
+}
+
+/* === Experience formatting === */
+.item-header {
+  display: flex;
+  justify-content: space-between;
+  font-size: 16px;
+  font-weight: bold;
+  margin-top: 10px;
+  color: cornsilk;
+}
+
+.item-sub {
+  font-style: italic;
+  font-size: 15px;
+  margin-bottom: 6px;
+}
+
+/* === Lists === */
+ul {
+  margin: 4px 0 12px 20px;
+  padding: 0;
+}
+
+li {
+  margin-bottom: 6px;
+  font-size: 15px;
+}
+
+/* === Education + Experience Labels === */
+.school-name,
+.job-title {
+  font-weight: bold;
+  color: white;
+}
+
+.location-line {
+  font-style: italic;
+  font-size: 15px;
+  margin-bottom: 6px;
+}
